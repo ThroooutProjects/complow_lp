@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<p align="center">
+  <img src="public/images/logo1.png" alt="Comflow Logo" width="200" />
+</p>
+
+<h1 align="center">Comflow</h1>
+
+<p align="center">
+  <strong>WhatsApp automation for modern businesses</strong><br/>
+  Streamline customer communication, automate workflows, and scale your business with intelligent WhatsApp solutions.
+</p>
+
+---
+
+## Features
+
+- **Automated WhatsApp Flows** — Build powerful conversation workflows without code
+- **Smart Audience Targeting** — Reach the right customers at the right time
+- **Pricing Plans** — Flexible plans for businesses of all sizes
+- **Future-Ready** — Continuously evolving with new capabilities
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org) 16 (App Router + Turbopack)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+app/
+├── layout.tsx            # Root layout
+├── page.tsx              # Landing page
+├── globals.css           # Global styles
+└── components/
+    ├── Navbar.tsx
+    ├── HeroSection.tsx
+    ├── ProblemSection.tsx
+    ├── SolutionSection.tsx
+    ├── DemoSection.tsx
+    ├── WhySection.tsx
+    ├── FeaturesSection.tsx
+    ├── AudienceSection.tsx
+    ├── PricingSection.tsx
+    ├── FutureSection.tsx
+    ├── FinalCTA.tsx
+    └── Footer.tsx
+public/
+└── images/               # Logos and assets
+```
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© Comflow. All rights reserved.
