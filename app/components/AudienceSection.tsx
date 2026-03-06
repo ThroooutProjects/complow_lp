@@ -59,7 +59,7 @@ export default function AudienceSection() {
   ];
 
   return (
-    <section className="py-28 bg-gradient-to-b from-white to-gray-50/50">
+    <section className="py-28 bg-gradient-to-b from-white to-gray-50/50" id="audience" aria-label="Who Comflo is for - fashion, food, beauty, services, and D2C businesses">
       <div className="mx-auto max-w-7xl px-6">
         <ScrollReveal>
           <div className="text-center max-w-2xl mx-auto mb-16">

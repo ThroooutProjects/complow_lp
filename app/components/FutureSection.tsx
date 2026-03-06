@@ -5,7 +5,7 @@ import ScrollReveal from "./ScrollReveal";
 
 export default function FutureSection() {
   return (
-    <section className="py-28" id="future">
+    <section className="py-28" id="future" aria-label="Comflo vision - the future of online business operations">
       <div className="mx-auto max-w-7xl px-6">
         <ScrollReveal>
           <div className="relative rounded-3xl p-12 lg:p-20 overflow-hidden" style={{ background: "linear-gradient(135deg, #0E2E24 0%, #0E2E24 55%, #143d32 75%, #1a5240 100%)" }}>

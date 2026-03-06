@@ -13,7 +13,7 @@ export default function ProblemSection() {
   ];
 
   return (
-    <section className="relative py-28 bg-[#fafbfa]" id="problem">
+    <section className="relative py-28 bg-[#fafbfa]" id="problem" aria-label="Problems online businesses face without WhatsApp automation">
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left — Chat-style problem illustration */}
@@ -72,6 +72,7 @@ export default function ProblemSection() {
                 Your business is growing.{" "}
                 <span className="gradient-text">Your system isn&rsquo;t.</span>
               </h2>
+              <p className="sr-only">Common problems: too many chats, missed follow-ups, manual order tracking, no customer data, and no retention strategy. Comflo solves all of these with WhatsApp automation.</p>
               <p className="mt-6 text-gray-600 leading-relaxed">
                 Today, customers don&rsquo;t just buy from websites. They ask
                 questions. They compare. They message before they buy. This

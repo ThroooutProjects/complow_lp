@@ -57,7 +57,7 @@ export default function FeaturesSection() {
   ];
 
   return (
-    <section className="py-28 bg-[#fafbfa]" id="features">
+    <section className="py-28 bg-[#fafbfa]" id="features" aria-label="Comflo core features - WhatsApp automation, bulk messaging, order tracking, analytics">
       <div className="mx-auto max-w-7xl px-6">
         <ScrollReveal>
           <div className="text-center max-w-2xl mx-auto mb-16">
@@ -68,6 +68,7 @@ export default function FeaturesSection() {
               Everything you need to{" "}
               <span className="gradient-text">automate growth.</span>
             </h2>
+            <p className="sr-only">Bulk WhatsApp messaging, automated follow-ups, customer segmentation, order tracking, retention analytics, WooCommerce and Shopify integration, multi-language automation, and smart workflows.</p>
           </div>
         </ScrollReveal>
 

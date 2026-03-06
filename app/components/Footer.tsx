@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="relative bg-[#0E2E24] text-white overflow-hidden">
+    <footer className="relative bg-[#0E2E24] text-white overflow-hidden" role="contentinfo" aria-label="Comflo footer">
       {/* Subtle background texture */}
       <div
         className="absolute inset-0 opacity-[0.03]"
@@ -52,8 +52,9 @@ export default function Footer() {
             <div className="flex items-center mb-5">
               <img
                 src="/images/logo1.png"
-                alt="Comflo"
+                alt="Comflo - WhatsApp Automation Platform for Online Businesses"
                 className="h-8 w-auto"
+                loading="lazy"
               />
             </div>
             <p className="text-white/40 text-[13.5px] max-w-sm leading-relaxed">

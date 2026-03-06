@@ -5,7 +5,7 @@ import WhatsAppMockup from "./WhatsAppMockup";
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden pt-20">
+    <section className="relative min-h-screen flex items-center overflow-hidden pt-20" aria-label="Hero - Turn every customer conversation into a sale">
       {/* Background blobs */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-40 -right-40 w-[600px] h-[600px] rounded-full bg-[#19C37D]/5 blur-3xl" />
@@ -29,10 +29,12 @@ export default function HeroSection() {
             Turn every customer{" "}
             <span className="gradient-text">conversation</span> into a sale.
           </h1>
+          {/* Hidden SEO-friendly heading context */}
+          <p className="sr-only">Comflo WhatsApp automation platform helps online businesses automate customer conversations, manage orders, send follow-ups, and drive repeat sales through one integrated system.</p>
 
           <p className="mt-6 text-lg text-gray-600 leading-relaxed">
-            Comflo helps online businesses manage WhatsApp, orders, follow-ups,
-            and repeat customers in one automated system.
+            Comflo helps online businesses manage <strong>WhatsApp conversations</strong>, orders, follow-ups,
+            and repeat customers in one <strong>automated system</strong>.
           </p>
 
           <p className="mt-4 text-[15px] text-gray-500 leading-relaxed">
@@ -51,11 +53,13 @@ export default function HeroSection() {
               <ArrowRight
                 size={16}
                 className="transition-transform group-hover:translate-x-1"
+                aria-hidden="true"
               />
             </a>
             <a
               href="#how-it-works"
               className="inline-flex items-center justify-center gap-2 rounded-full border-2 border-[#0E2E24]/10 px-8 py-4 text-sm font-bold text-[#0E2E24] transition-all hover:border-[#19C37D]/30 hover:bg-[#19C37D]/5"
+              aria-label="See how Comflo WhatsApp automation works"
             >
               See How It Works
             </a>

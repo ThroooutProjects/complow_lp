@@ -5,7 +5,7 @@ import ScrollReveal from "./ScrollReveal";
 
 export default function FinalCTA() {
   return (
-    <section className="py-28 bg-[#fafbfa]" id="cta">
+    <section className="py-28 bg-[#fafbfa]" id="cta" aria-label="Book a free Comflo demo - automate your WhatsApp business">
       <div className="mx-auto max-w-7xl px-6">
         <ScrollReveal>
           <div className="text-center max-w-2xl mx-auto">
@@ -13,6 +13,7 @@ export default function FinalCTA() {
               If your business depends on manual work,{" "}
               <span className="gradient-text">growth will slow down.</span>
             </h2>
+            <p className="sr-only">Automate your WhatsApp business with Comflo. Book a free demo and get set up in under 15 minutes.</p>
             <p className="mt-6 text-lg text-gray-500">
               Build a system that grows with you.
               <br />

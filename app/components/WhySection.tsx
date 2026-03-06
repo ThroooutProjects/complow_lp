@@ -28,7 +28,7 @@ export default function WhySection() {
   ];
 
   return (
-    <section className="py-28" id="why">
+    <section className="py-28" id="why" aria-label="Why WhatsApp automation matters for business growth">
       <div className="mx-auto max-w-7xl px-6">
         <ScrollReveal>
           <div className="max-w-2xl mb-16">
@@ -43,7 +43,7 @@ export default function WhySection() {
             </h2>
             <p className="mt-4 text-gray-500 leading-relaxed">
               Most businesses spend money on ads but lose customers because they
-              don&rsquo;t follow up. Comflo changes that.
+              don&rsquo;t follow up. <strong>Comflo&rsquo;s automated WhatsApp workflows</strong> change that — increasing repeat sales, reducing manual work, and scaling your business without hiring.
             </p>
           </div>
         </ScrollReveal>

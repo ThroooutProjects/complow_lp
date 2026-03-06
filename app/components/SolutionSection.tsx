@@ -6,7 +6,7 @@ import AutomationFlow from "./AutomationFlow";
 
 export default function SolutionSection() {
   return (
-    <section className="py-28" id="how-it-works">
+    <section className="py-28" id="how-it-works" aria-label="How Comflo automates your customer journey">
       <div className="mx-auto max-w-7xl px-6">
         <ScrollReveal>
           <div className="text-center max-w-2xl mx-auto mb-16">
@@ -18,8 +18,8 @@ export default function SolutionSection() {
               <span className="gradient-text">customer journey.</span>
             </h2>
             <p className="mt-4 text-gray-500">
-              When a customer sends a message, everything happens automatically
-              — inside one system.
+              When a customer sends a <strong>WhatsApp message</strong>, everything happens automatically
+              — from order placement to follow-up, inside one system.
             </p>
           </div>
         </ScrollReveal>

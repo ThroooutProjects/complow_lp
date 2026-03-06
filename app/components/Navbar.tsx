@@ -66,7 +66,7 @@ export default function Navbar() {
             <a href="#" className="flex items-center shrink-0">
               <Image
                 src="/images/logo3.png"
-                alt="Comflo"
+                alt="Comflo - WhatsApp Automation Platform"
                 width={120}
                 height={40}
                 className={`w-auto transition-all duration-300 ${

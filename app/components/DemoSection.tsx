@@ -5,7 +5,7 @@ import ScrollReveal from "./ScrollReveal";
 
 export default function DemoSection() {
   return (
-    <section className="py-28 bg-[#fafbfa]">
+    <section className="py-28 bg-[#fafbfa]" id="demo" aria-label="Watch Comflo WhatsApp automation demo">
       <div className="mx-auto max-w-7xl px-6">
         <ScrollReveal>
           <div className="text-center max-w-2xl mx-auto mb-12">
@@ -14,7 +14,7 @@ export default function DemoSection() {
             </span>
             <h2 className="mt-4 text-3xl font-extrabold text-[#0E2E24] sm:text-4xl">
               How businesses use{" "}
-              <span className="gradient-text">Comflo</span>
+              <span className="gradient-text">Comflo</span> to automate WhatsApp sales
             </h2>
           </div>
         </ScrollReveal>
@@ -30,6 +30,7 @@ export default function DemoSection() {
               <p className="text-white/70 text-sm font-medium">
                 Watch the 2-minute demo
               </p>
+              <span className="sr-only">Watch how Comflo automates WhatsApp conversations, order tracking, and customer follow-ups for online businesses</span>
             </div>
 
             {/* Decorative chat bubbles */}

@@ -16,7 +16,7 @@ export default function PricingSection() {
   ];
 
   return (
-    <section className="py-28 bg-[#fafbfa]" id="pricing">
+    <section className="py-28 bg-[#fafbfa]" id="pricing" aria-label="Comflo pricing - one package, everything included">
       <div className="mx-auto max-w-7xl px-6">
         <ScrollReveal>
           <div className="text-center max-w-2xl mx-auto mb-16">
@@ -27,6 +27,7 @@ export default function PricingSection() {
               One package.{" "}
               <span className="gradient-text">Everything included.</span>
             </h2>
+            <p className="sr-only">Comflo pricing includes WhatsApp automation, customer segmentation, order tracking, retention analytics, follow-up workflows, WooCommerce and Shopify integration, multi-language support, and priority onboarding.</p>
           </div>
         </ScrollReveal>
 
